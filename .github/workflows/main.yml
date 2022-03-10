@@ -39,3 +39,7 @@ jobs:
       run: |
         cd src/package
         python -m unittest
+    - name: Build sphix documentation
+      run: |
+        cd doc
+        make html
