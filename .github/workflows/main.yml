@@ -36,6 +36,6 @@ jobs:
     - name: Run linter
       run: flake8
     - name: Run unittest
-          run: |
-            cd src
-            python -m unittest def_num_test.py
+      run: |
+        cd src
+        python -m unittest def_num_test.py
